@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>YOSHITADA YAMADA | Physician</title>
+  <meta name="description" content="Digital Business Card — YOSHITADA YAMADA, Physician, Cosmetic Medicine, Occupational Physician, KROSS×OVER Ring Doctor, Representative Director, DR.YK Inc.">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YOSHITADA YAMADA | Physician">
+  <meta property="og:description" content="Digital Business Card — YOSHITADA YAMADA, Physician, DR.YK Inc.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="assets/qrcode.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card-shell" data-page="card">
+    <header class="identity reveal">
+      <div class="monogram" aria-label="Y monogram">Y</div>
+      <h1 data-config="name">YOSHITADA YAMADA</h1>
+      <p class="title" data-config="title">Physician</p>
+    </header>
+    <section class="fields reveal" data-fields aria-label="Professional fields">
+      <p>Cosmetic Medicine</p><p>Occupational Physician</p><p>KROSS×OVER Ring Doctor</p>
+    </section>
+    <section class="company reveal" aria-label="Company">
+      <span class="gold-rule" aria-hidden="true"></span>
+      <p class="company-role" data-config="companyRole">Representative Director,</p>
+      <p class="company-name" data-config="company">DR.YK Inc.</p>
+    </section>
+    <nav class="actions reveal" aria-label="Contact actions">
+      <a class="action" data-vcard href="contact.vcf" aria-label="Add YOSHITADA YAMADA to contacts">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 19a6 6 0 0 0-12 0M9 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M19 8v6M16 11h6"/></svg>
+        <span><strong>Add to Contacts</strong><small>Save my contact</small></span><span class="arrow" aria-hidden="true">›</span>
+      </a>
+      <a class="action" data-link="phone" href="tel:07053281214" aria-label="Call 070-5328-1214">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.28.54 3.5.54a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.57 21 3 13.43 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.23.18 2.4.54 3.5a1 1 0 0 1-.25 1.02L6.6 10.8Z"/></svg>
+        <span><strong>Call</strong><small data-config="phone">070-5328-1214</small></span><span class="arrow" aria-hidden="true">›</span>
+      </a>
+      <a class="action" data-link="email" href="mailto:keikeipresent@gmail.com" aria-label="Email keikeipresent@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg>
+        <span><strong>Email</strong><small data-config="email">keikeipresent@gmail.com</small></span><span class="arrow" aria-hidden="true">›</span>
+      </a>
+    </nav>
+    <section class="qr-section reveal" aria-labelledby="scan-heading">
+      <div class="section-label"><span></span><h2 id="scan-heading">SCAN TO CONNECT</h2><span></span></div>
+      <div class="qr-card"><div class="qr-code" data-qr></div></div>
+      <a class="show-qr" href="qr.html" aria-label="Show QR code full screen">Show QR</a>
+    </section>
+    <footer>© <span data-config="company">DR.YK Inc.</span></footer>
+  </main>
+  <noscript><p class="noscript">JavaScript is required to display the QR code.</p></noscript>
+</body>
+</html>
