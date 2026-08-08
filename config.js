@@ -7,6 +7,6 @@ const CONFIG = {
   phone: "070-5328-1214",
   phoneLink: "07053281214",
   email: "keikeipresent@gmail.com",
-  websiteUrl: "YOUR_PUBLIC_URL"
+  websiteUrl: "https://keikeipresent-debug.github.io/digital-card/"
 };
 window.CONFIG = CONFIG;
